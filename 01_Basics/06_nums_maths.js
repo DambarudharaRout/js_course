@@ -14,8 +14,19 @@
 // console.log(numberTwo.toLocaleString('en-IN'));
 
 // +++++++++++++++ MATHS +++++++++++++
-console.log(Math)
-console.log(Math.abs(-3));
-console.log(Math.round(4.8)) // >=(.5) => choose upper value otherwise lower value
- 
+// console.log(Math)
+// console.log(Math.abs(-3));
+// console.log(Math.round(4.8)) // >=(.5) => choose upper value otherwise lower value
 
+/// customize the rounding off
+// console.log(Math.ceil(4.2))
+// console.log(Math.floor(4.2))
+// console.log(Math.min(2,7,4,1))
+// console.log(Math.max(2,7,4,1))
+
+// console.log(Math.random())
+
+// design a dice rolling
+const min = 1;
+const max = 6;
+console.log(Math.floor((Math.random() * (max-min+1)) + min))
