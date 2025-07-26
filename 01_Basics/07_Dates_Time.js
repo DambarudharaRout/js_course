@@ -16,5 +16,4 @@ let newDate = new Date()
 console.log(newDate.getDay())
 console.log(newDate.getMonth()+1)
 
-
 newDate.toLocaleString()
